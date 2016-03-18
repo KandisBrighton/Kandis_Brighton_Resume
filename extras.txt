@@ -1,0 +1,56 @@
+	<form method="post" action = "">  
+	  
+	     <label>First Name:
+         <input type="text" name="first" value ="<?php echo $first; ?>" >   <!-- this will be changed later -->
+         </label><br>
+         <label>Last Name:
+         <input type="text" name="last" value ="<?php echo $last; ?>" >   <!-- this will be changed later -->
+        </label><br>
+		 <label>Email:
+         <input type="text" name="email" value ="<?php echo $email; ?>" >  <!-- required>  -->
+         </label><br>
+		 <label>Password:
+         <input type="text" name="password1" value ="" >  <!-- required>  -->
+         </label><br>
+		  <label>Repeat Password:
+         <input type="text" name="password2" value ="" >  <!-- required>  -->
+         </label><br>
+		<input type="submit" value="Submit" name="btnSubmit">
+    </form>
+    
+    
+    
+    
+    
+                             <div class="contact_form">
+
+                            <form method="post" class="contact-form" name="contact_form" action=""> <!--contact_form.php">-->
+                              <div class="row">
+                                <div class="col-md-5">
+                                  <div class="form_input">
+                                    <i class="fa fa-user"></i>
+                                    <input type="text" name="name" class="name" placeholder="Your Name" > <!--value="<?php echo $name; ?>">-->
+                                  </div>
+                                  <div class="form_input">
+                                    <i class="fa fa-envelope"></i>
+                                    <!--changed the name to email-->
+                                    <input type="email" name="mail" class="mail" placeholder="Email">  <!--value="<?php echo $email; ?>" >-->
+                                  </div>
+                              <!--    <div class="form_input">
+                                    <i class="fa fa-home"></i>
+                                    <input type="url" name="url" class="url" placeholder="URL">
+                                  </div>-->
+                                </div>
+                                <div class="col-md-7">
+                                  <div class="form_input">
+                                    <i class="fa fa-comment"></i>
+                                    <textarea placeholder="Message" name="message" class="message"> 
+                                    </textarea>
+                                  </div>
+                                  <input type="submit" name="submit" id="submit" value="submit">
+                                </div>
+                              </div>
+                            </form>
+
+                          </div>
+                          <!-- // Contact Form -->
